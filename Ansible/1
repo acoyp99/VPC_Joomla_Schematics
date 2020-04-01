@@ -1,0 +1,49 @@
+- hosts: 169.61.226.147
+  become: yes
+  become_method: sudo
+  remote_user: root 
+
+  tasks:
+
+  - name: create /var/lib/apt/lists/
+    file:
+      path: /var/lib/apt/lists/
+      state: directory
+      mode: '0755'
+    check_mode: no
+
+  - name: update packages 
+    apt:
+      upgrade: dist
+      update_cache: yes
+
+  - name: mysql-client 
+    apt: 
+      pkg:
+      - mysql-client
+      - python-pip
+      update_cache: yes
+      state: absent 
+
+  - name: install pip
+    apt:
+      name: python-pip
+      state: absent
+
+  - name: install python-pymysql
+    pip:
+      name: pymysql
+      
+  - name: install python-pymysql
+    apt:
+      pkg: mysql-server
+      update_cache: yes
+      state: latest
+
+  - name: Create database user with name 'joomla' and password 'Passw0rd' with all database privileges
+    mysql_user:
+      name: joomla
+      password: Passw0rd
+      priv: '*.*:ALL'
+      state: present
+
