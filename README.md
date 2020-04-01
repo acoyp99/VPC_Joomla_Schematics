@@ -18,9 +18,9 @@ Como caracteristicas especificas de este laboratorio se uso:
 
 ### 1. Acerca de tomcat
 
-El Apache Tomcat ® software es una implementación de código abierto del servlet de Java, Java Server Pages, Lengua y Java WebSocket tecnologías de expresión de Java. Las especificaciones Java Servlet, JavaServer Pages, Java Expression Language y Java WebSocket se desarrollan bajo el Proceso de la Comunidad Java .
+El Apache Tomcat ® software es una implementación de código abierto del servlet de Java, Java Server Pages, Java Expression Language y tecnologias Java WebSocket desarrollada por la comunidad de Java.
 
-El software Apache Tomcat se desarrolla en un entorno abierto y participativo y se publica bajo la licencia de Apache versión 2 . El proyecto Apache Tomcat está destinado a ser una colaboración de los mejores desarrolladores de todo el mundo. Te invitamos a participar en este proyecto de desarrollo abierto. Para obtener más información sobre cómo participar, haga clic aquí.
+El software Apache Tomcat se desarrolla en un entorno abierto y participativo y se publica bajo la licencia de Apache versión 2. El proyecto Apache Tomcat está destinado a ser una colaboración de los mejores desarrolladores de todo el mundo.
 
 [referencia.](http://tomcat.apache.org/)
 
