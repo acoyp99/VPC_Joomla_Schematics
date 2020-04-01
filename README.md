@@ -29,7 +29,7 @@ Joomla! es uno de los softwares de sitios web más populares, gracias a su comun
 Con el fin de ilustrar los recursos necesarios para el despliegue de la plataforma Tomcat, a continuación de muestra un diagrama.
 
 <p align="center">
-<img width="500" alt="img8" src="https://user-images.githubusercontent.com/40369712/78176984-fcf75880-7422-11ea-9818-06d01467b886.png">
+<img width="500" alt="img8" src="https://user-images.githubusercontent.com/40369712/78178486-595b7780-7425-11ea-90d0-29eab8ca2e1d.png">
 </p>
 
 # Referencias 📖
