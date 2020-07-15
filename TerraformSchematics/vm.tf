@@ -1,8 +1,3 @@
-provider "ibm" {
-  generation         = 1
-  region             = "us-south"
-  ibmcloud_api_key      = "${var.ibmcloud_apikey}"
-}
 
 data "ibm_resource_group" "group" {
   name = "${var.resource_group}"
